@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DigiLibro - Tus Clásicos Favoritos Online</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Oswald:wght@700&display=swap" rel="stylesheet"/>
+  <link href="dist/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+ 
+  <nav class="navbar navbar-expand-lg barra sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="dist/assets/digilibro.png" alt="DigiLibro" class="logo"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="menu">
+        <ul class="navbar-nav gap-1">
+          <li class="nav-item"><a class="nav-link link" href="dist/paginas/catalogo.html">Catálogo</a></li>
+          <li class="nav-item"><a class="nav-link link" href="dist/paginas/sobrenosotros.html">Sobre Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link link" href="#opiniones">Opiniones</a></li>
+          <li class="nav-item"><a class="nav-link link" href="#novedades">Novedades</a></li>
+          <li class="nav-item"><a class="nav-link link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <section class="portada">
+    <div class="container">
+      <h1 class="titulo">DIGILIBRO</h1>
+      <p class="bajada">Tus clásicos favoritos online</p>
+      <a href="dist/paginas/catalogo.html" class="boton">Ver Catálogo</a>
+    </div>
+    <div class="contenedor">
+      <img src="dist/assets/home.jpg" alt="Interior de librería" class="foto"/>
+    </div>
+  </section>
+
+  
+  <section class="novedades" id="novedades">
+    <div class="container">
+      <h2 class="subtitulo">NOVEDADES</h2>
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-md-5">
+          <img src="dist/assets/local.jfif" alt="Nuevo Local" class="novedad"/>
+          <h5 class="encabezado">Nuevo Local</h5>
+          <p class="descripcion">Apertura de nuestro local comercial en 18 de julio y minas.</p>
+        </div>
+
+        <div class="col-md-5">
+          <img src="dist/assets/lotelibros.jfif" alt="Nuevo Lote" class="novedad"/>
+          <h5 class="encabezado">Nuevo Lote / Contrato</h5>
+          <p class="descripcion">Tras el nuevo contrato con la editorial "El novillo", se estrena un nuevo lote de libros.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="leidos">
+    <div class="container">
+      <h2 class="subtitulo">LO MAS LEIDO</h2>
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-md-3 col-6">
+          <img src="dist/assets/dickens.jfif" alt="Historia de dos ciudades" class="tapa"/>
+          <p class="precio">$8</p>
+          <p class="autor">Charles Dickens</p>
+        </div>
+
+        <div class="col-md-3 col-6">
+          <img src="dist/assets/hobbit.webp" alt="El Hobbit" class="tapa"/>
+          <p class="precio">$9</p>
+          <p class="autor">J.R.R. Tolkien</p>
+        </div>
+
+        <div class="col-md-3 col-6">
+          <img src="dist/assets/dieznegritos.webp" alt="Diez Negritos" class="tapa"/>
+          <p class="precio">$7</p>
+          <p class="autor">Agatha Christie</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="newsletter" id="contacto">
+    <div class="container">
+      <h4 class="aviso">Seguir las ultimas Novedades</h4>
+      <div class="formulario">
+        <input type="email" placeholder="you@example.com" class="campo"/>
+        <button class="contactar">Contactar</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="opiniones" id="opiniones">
+    <div class="container">
+      <h3 class="seccion">OPINIONES</h3>
+      <div class="row">
+
+        <div class="col-md-6">
+
+          <div class="opinion">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Amanda Sazs" class="avatar"/>
+            <div>
+              <p class="nombre">Amanda Sazs</p>
+              <p class="texto">"Encontré toda la obra de García Márquez en un solo lugar. ¡Increíble!"</p>
+            </div>
+          </div>
+
+          <div class="opinion">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Ricardo Spinneta" class="avatar"/>
+            <div>
+              <p class="nombre">Ricardo Spinneta</p>
+              <p class="texto">"Leí '1984' de Orwell en dos días. La experiencia de lectura es hermosa."</p>
+            </div>
+          </div>
+
+          <div class="opinion">
+            <img src="https://randomuser.me/api/portraits/men/56.jpg" alt="Joaquín Spellin" class="avatar"/>
+            <div>
+              <p class="nombre">Joaquín Spellin</p>
+              <p class="texto">"Tengo acceso a cientos de clásicos como 'Don Quijote' y 'Crimen y Castigo'. Vale cada peso."</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-6">
+
+          <div class="opinion">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Veronica Stilton" class="avatar"/>
+            <div>
+              <p class="nombre">Veronica Stilton</p>
+              <p class="texto">"'El Principito' y 'Fahrenheit 451' en el mismo lugar. Le falta modo oscuro pero la recomiendo."</p>
+            </div>
+          </div>
+
+          <div class="opinion">
+            <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="Jamie Springfield" class="avatar"/>
+            <div>
+              <p class="nombre">Jamie Springfield</p>
+              <p class="texto">"Como docente, el catálogo de literatura es enorme. Mis alumnos la adoran."</p>
+            </div>
+          </div>
+
+          <div class="opinion">
+            <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Lucas Hamilton" class="avatar"/>
+            <div>
+              <p class="nombre">Lucas Hamilton</p>
+              <p class="texto">"'Cien Años de Soledad' tardó una eternidad en cargar y perdí mi progreso. Muy decepcionante."</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <footer class="pie">
+    <div class="container">
+      <div class="row align-items-start">
+
+        <div class="col-md-4 mb-4">
+          <img src="dist/assets/digilibro.png" alt="DigiLibro" class="logopie"/>
+          <div>
+            <a href="#" class="red"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="red"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="red"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="red"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-4"></div>
+
+        <div class="col-md-4 mb-4">
+          <p class="explorar">Explorar</p>
+          <ul class="listado">
+            <li class="item"><a href="dist/paginas/inicio.html" class="enlace">Inicio</a></li>
+            <li class="item"><a href="dist/paginas/sobrenosotros.html" class="enlace">Sobre Nosotros</a></li>
+            <li class="item"><a href="dist/paginas/catalogo.html" class="enlace">Catálogo</a></li>
+            <li class="item"><a href="dist/paginas/contacto.html" class="enlace">Contacto</a></li>
+            <li class="item"><a href="dist/paginas/novedades.html" class="enlace">Novedades</a></li>
+            <li class="item"><a href="dist/paginas/opiniones.html" class="enlace">Opiniones</a></li>
+            <li class="item"><a href="dist/paginas/leidos.html" class="enlace">Lo Más Leído</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="copyright">
+        © 2026 DigiLibro. Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
